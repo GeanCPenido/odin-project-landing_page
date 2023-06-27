@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.productDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote {
+    background-color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
