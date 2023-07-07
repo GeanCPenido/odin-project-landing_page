@@ -34,6 +34,11 @@ li {
     margin: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 img {
     height: auto;
     width: 400px;
@@ -55,6 +60,11 @@ li p {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 20px;
+}
+
+.introText {
+    max-width: 30%;
 }
 
 h1 {
@@ -90,6 +100,10 @@ h2 {
 .quote {
     display: flex;
     flex-direction: column;
+    
+}
+
+.quoteFrase {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
